@@ -1,0 +1,10 @@
+diff --git a/variants/esp32/rak11200/platformio.ini b/variants/esp32/rak11200/platformio.ini
+index 96cb36c..3c1b9de 100644
+--- a/variants/esp32/rak11200/platformio.ini
++++ b/variants/esp32/rak11200/platformio.ini
+@@ -17,5 +17,4 @@ build_flags =
+   -I variants/esp32/rak11200
+   -DMESHTASTIC_EXCLUDE_WEBSERVER=1
+   -DMESHTASTIC_EXCLUDE_PAXCOUNTER=1
+-  -DMESHTASTIC_EXCLUDE_MQTT=1
+ upload_speed = 115200
